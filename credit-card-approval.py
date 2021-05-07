@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix
 
-df = pd.read_csv('E:\Datasets\credit-card-approval\cc_approvals.data.txt')
+df = pd.read_csv('cc_approvals.data.txt')
 
 #initial insight
 print(df.head())
